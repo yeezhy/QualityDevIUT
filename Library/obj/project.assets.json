@@ -5,10 +5,14 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "LibraryData/1.0.0": {
@@ -66,19 +70,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ZSPT6993\\.nuget\\packages\\": {}
+    "C:\\Users\\flete\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ZSPT6993\\source\\repos\\MyLibrary\\MyLibraryTMA\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\flete\\Documents\\GitHub\\QualityDevIUT\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\ZSPT6993\\source\\repos\\MyLibrary\\MyLibraryTMA\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\ZSPT6993\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ZSPT6993\\source\\repos\\MyLibrary\\MyLibraryTMA\\Library\\obj\\",
+      "projectPath": "C:\\Users\\flete\\Documents\\GitHub\\QualityDevIUT\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\flete\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flete\\Documents\\GitHub\\QualityDevIUT\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ZSPT6993\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\flete\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -92,8 +96,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ZSPT6993\\source\\repos\\MyLibrary\\MyLibraryTMA\\LibraryData\\LibraryData.csproj": {
-              "projectPath": "C:\\Users\\ZSPT6993\\source\\repos\\MyLibrary\\MyLibraryTMA\\LibraryData\\LibraryData.csproj"
+            "C:\\Users\\flete\\Documents\\GitHub\\QualityDevIUT\\LibraryData\\LibraryData.csproj": {
+              "projectPath": "C:\\Users\\flete\\Documents\\GitHub\\QualityDevIUT\\LibraryData\\LibraryData.csproj"
             }
           }
         }
@@ -102,6 +106,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -119,7 +128,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -128,7 +138,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
